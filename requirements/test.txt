@@ -41,6 +41,7 @@ distlib==0.3.1
 django-pyfs==3.0
     # via -r requirements/django.txt
     # via
+    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/django.txt
     #   django-pyfs
 filelock==3.0.12
@@ -56,7 +57,7 @@ fs==2.4.12
     #   -r requirements/django.txt
     #   django-pyfs
     #   fs-s3fs
-hypothesis==6.0.4
+hypothesis==6.1.0
     # via -r requirements/test.in
 inflect==5.0.2
     # via jinja2-pluralize
